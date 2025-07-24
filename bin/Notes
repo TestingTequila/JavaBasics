@@ -65,3 +65,299 @@ OOPs
 
 
 Selenium: Java + Element Locators(HTML)
+
+
+==========MANUAL TESTING NOTES=========================
+
+Software testing is an activity in s/w development : masumaakhter_68259
+
+Tea: 
+
+Pick a Pan
+Put it on Stove
+Ignite the stove
+Add some water to Pan
+Add some sugar 
+Add some tea Leaves 
+Wait for it to boil
+Add Milk to it
+Once this is ready
+Pick a cup
+Pour the tea into the cup
+
+
+Construct a House
+ -Identify the piece of Land 
+ -Design the house with the help of Architect
+ -Lay the foundation
+ -Raise the Walls
+ -Design the roof
+ -Attach Doors and Windows
+ -Plastering
+ -Painting
+ -Interiors
+ -Living
+
+
+Develop a Software [SDLC: Software Development Life Cycle]: Talks about different phases through which any s/w that we want to develop will have to go through
+ -Requirement Analysis Phase
+     a) requirement given by the client is complete or not
+     b) requirement given by the client is correct or not 
+
+ -Feasibility Study Phase[]
+ -Design Phase []
+ -Coding Phase
+ -TESTING PHASE
+ -Deployment Phase
+ -Maintenance Phase
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To ensure software meets agreed requirement and Design==>  [requirement document][Business Analyst: BA]
+The application is working as expected ===> Test Case Document 
+
+
+
+Definition
+SDLC
+Objectives 
+   1. To ensure software meets agreed requirement and Design==>  [requirement document][Business Analyst: BA]
+   2. The application is working as expected                           ==> Test Case Document [Testers]
+   3. To ensure s/w doesn't contains any serious bugs            ==> Test Case Document [Testers]
+       Login Button is missing          - Its a serious bug
+       Forgotten spelling is incorrect - not a serious bug
+       I am a returning customer      - not a serious bug   
+   4. Meets in intended use as per user Expectations[Application is easy to use or user friendly]
+       ORKUT: 2001 - 2007/8 [Google]
+       FACEBOOK     - 2008 
+   
+
+Why do we Test the software's?
+  To fulfill all the 4 objectives of S/w testing
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PRINCIPALS OF SOFTWARE TESTING
+1. Testing shows presence of Bugs
+2. Exhaustive testing is impossible
+3. Early Testing 
+4. Defect Clustering
+5. The Pesticide Paradox
+6. Testing is context dependent
+7. Absence of Error Fallacy
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TESTING SHOWS PRESENCE OF BUGS: This principal states that with testing we can confirm the presence of bugs but we cannot ensure through testing, the absence of bugs
+                                                     Test Cases: Test cases are different scenarios that we write/execute in order to test the functionality of an application is working fine or not 
+                                                     Test Design: Identifying the attributes against which we have to write our test cases in known as test Designing 
+
+EXHAUSTIVE TESTING IS IMPOSSIBLE: We will come across certain test cases with huge pool of test data available, we should not be testing that particular test case
+                                                      with all the test data available. 
+                                                       There are 2 techniques to pick the right data from huge pool of test data:
+                                                         -Equivalence Partitioning 
+                                                         -Boundary Value Analysis
+EARLY TESTING: Your testing starts as soon as requirement is given by the client. The testing that we do before the software is actually developed, just with the 
+                       requirement given by the client, this testing is known as Static Testing [Verification]
+
+DEFECT CLUSTERING: Defect identified in an application will not be evenly distributed across the application, you will always find few modules where the bugs identified are relatively higher 
+                              compared to other modules
+
+100 Test Cases
+Register          [3/100]
+Login              [0/100]
+Home              [20/100]
+Brands            [1/100]
+Payment          [25/100]
+
+Pareto Principal: 80% of bugs are identified against 20% of modules
+
+THE PESTICIDE PARADOX: 
+
+Jason: 10 Hectares of Land
+2019 : Wheat [50 kgs] 
+2020 : Wheat[P] ---> 50 tones
+2021: Wheat [P] ---> 45 tones
+2022: Wheat [P] ---> 30 tones
+2023: Wheat [P] ---> 10 tones
+2024: Wheat [P] ---> 4 tones
+2025: Wheat [P] ---> 2 tones
+
+WhatsApp: 2009[26th June,2009] ---> 500 Test Cases --> 50 bugs ---> Raised bugs ---> Developers ---> Fixed -->QA(Retested)---> Closed 
+WhatsApp: 2009[27th June,2009] ---> 500 Test Cases --> 
+WhatsApp: 2009[28th June,2009] ---> 500 Test Cases --> 
+
+WhatsApp: 2025[26th June,2009] ---> 500 Test Cases -->
+
+--> You should ensure that for new features new test cases were added
+--> You should try using different test data for your test cases
+--> You should execute your test cases on different environment
+
+TESTING IS CONTEXT DEPENDENT: 
+
+Gaming Application || E-Commerce Application 
+
+ABSENCE OF ERROR FALLACY: 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SDLC: SOFTWARE DEVELOPMENT LIFE CYCLE 
+
+Pre-requisite
+What we do in that phase
+Output
+People involved
+
+1. Requirement Analysis Phase
+    Pre-requisite: Requirement from Client
+    What we do in that phase: Analyze the requirement [Complete/Correct] 
+    Output: SRS/ FRS Document Ready 
+    People involved: Senior Resources[QA manager/lead]
+
+2. Feasibility Study Phase
+    Pre-requisite [SRS]
+    What we do in that phase[Cost, Time, Resources]
+    Output: We take the decision if we are developing this project or not 
+    People involved: Senior Resources[QA manager/lead]
+
+3. Design Phase
+    Pre-requisite[SRS]
+    What we do in that phase[Design the software + Design the Database]
+    Output: Design is ready + Database is ready
+    People involved: Freshers to Experienced 
+
+
+4. Coding Phase
+   Pre-requisite: SRS, S/w Design, Database
+   What we do in that phase: We write the code to make the application functional 
+   Output: We have a real working application or s/w ready
+   People involved: Freshers to Experienced 
+
+5. Testing Phase [Dynamic Testing]
+    Pre-requisite [SRS, Test Cases, Test Plan, Working application, Database]
+    What we do in that phase: We execute the test cases written earlier on real developed application to ensure objective of s/w testing is met
+    Output: A nearly bug free application
+    People involved: Freshers to Experienced 
+
+6. Deployment Phase
+    Pre-requisite: We need to have a tested bug free application
+    What we do in that phase: We deploy the application for end users[customers]
+    Output: A real application available to the customers 
+    People involved: DevOps, QAs, Freshers to Experienced 
+
+7. Maintenance Phase
+    Pre-requisite: Application should be deployed and accessible to the end users 
+    What we do in that phase: develop a new feature, deprecate an existing feature, s/w upgrade 
+    Output: Depends on what we did in this phase
+    People involved: Freshers to Experienced 
+
+---------------------------------------------STLC (Software Test Life Cycle)--------------------------------------------------------------------------------------------------------------
+
+STLC: This talks about different phases through which any s/w that we want to develop will have to go through
+
+
+Requirement ---> B.A ---> Team [QA] ---> Requirement Analysis[Issues] ---> B.A ----> Client --->Agrees ---> B.A[SRS] ---> QA Team
+
+
+1. Requirement Analysis Phase [How we are going to test it ] 
+   Pre-Requisite [SRS]
+   What we do [We analyze the requirement from Testing Perspective]
+   Output [Test Plan]
+   Resources: Test Manager/Lead
+
+2. Test Design [Identifying the attributes against which Test cases are to be written]
+    Pre-requisite: Test Plan 
+    WWD: Identifying the attributes against which Test cases are to be written
+    Output: Test designing completed
+    Resources: Freshers to Experienced
+
+3. Test Case Development
+    Pre-Requisite: SRS, Test Plan
+    WWD: WE identify different scenarios to be tested once the application is developed
+    Output: We are ready with all the scenarios to be tested [Test Cases are ready]
+    Resources: Freshers to Experienced
+
+4. Environment set up
+    Pre-Requisite: Development should be completed, Test plan should be ready, Test Cases should be ready
+    WWD: We create a separate environment for testers to test the application
+    Output: Environment is made available to start the testing
+    Resources: Developers/Experience Testers    
+
+5. Test Case Execution 
+    Pre-Requisite:Development should be completed, Test plan should be ready, Test Cases should be ready, Test Environment should be ready
+    WWD: execute the test cases on real developed application
+    Output: All test cases executed and we have application status 
+         Smoke Test Cases [Shallow and wide Testing] [Basic health checkup of the application]
+          -To ensure basic functionalities are working fine so that deep testing can be done
+          -To ensure developers have done their testing properly 
+
+6. Test Cycle Closure 
+
+
+-------------------------------------------------------------------------------
+
+Static Testing
+
+--------------------------------------------Development-------------------------------
+
+Unit Testing - Developers 
+
+Smoke testing [shallow & wide Testing]
+Sanity Testing [narrow & deep testing]
+ -Component/Module Testing [We break the application into small components and test every component individually]
+ -Integration Testing             [So we integrate two or more components together to see if these modules/components are compatible together or not]
+ -System Testing                   [Business Workflows of the application]
+
+ -Acceptance Testing [Client] [This testing is performed at the client end, to ensure the business scenarios are working fine
+
+
+Non-Functional Testing: [Tools]
+
+-Performance Testing [JMeter/LoadRunner]
+   -Load Testing [10,000] ---> 1[5 sec] --> 10[5 sec] ---> 100[5 sec] ---> 500[5 sec]--->800[5 sec]-->1000[5 sec]--->2000---....................................10,000
+   -Stress Testing 10,050] ---> application crashed 
+   
+-Security Testing: IBM Scan 
+-Usability Testing: 
+
+------------------------------------------------------------------------------------------------------------------
+
+4 Manual Testers 
+
+Tested an application(100)[Executed the test cases]---> 5/100(failed)--->QA raised 5 bugs[Jira]--->Developers --->Fix[Code changes]--->QA --->Retesting[Confirmation Testing of 5 bugs] 
+95 test cases [Re-Execute to ensure test cases which were working fine earlier(before the code change) is still working fine] 
+
+1st Round of Testing:  5 bugs            : Retested 
+                                95 Test cases  : Regression Testing   -----> 3 Test case failed (97 Test Cases passed, 3 failed) 
+ 3 bugs ---> Raise Bugs ---> Developer ---> Code changes [Fix] ---> QA ---> Retest 
+97 regression Testing ----> 7 Test Cases failed ----> 
+
+
+
+1. Confirmation Testing/ Retesting
+2. Regression Testing
+
+
+Automation Testing:  Automate all the 100 Test cases ---> 5 test cases failed ---> Raise Bugs ---> Developer ---> Code changes to fix ---> QA [Retesting]
+                               95 test cases ---> 30 mins ---> 3 Test 
+                           
+
+
+Is Manual Testing not going to survive in long run: Manual Testing will survive BUT manual Testers won't [1  manual Tester, 2 Automation Testers]
+
+
+-------------------------------------------------------
+
+   
+   
+
+
+
+
+
+
+
+
+ 
+   
