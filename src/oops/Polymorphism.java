@@ -43,4 +43,6 @@ public class Polymorphism
 	   //by changing the data type of parameters
 	   //by reordering the data types
 	   //by changing the count of data types
+
+	// method overloading happens within the same class 
 }

@@ -1,0 +1,67 @@
+Encapsulation in Java is a core object-oriented programming (OOP) concept that involves encapsulating variables and the methods that operate on those variables into a single unit, typically a class. It is a mechanism for restricting direct access to some of an object's components, promoting data hiding and protecting the internal state of an object. 
+
+
+1. Encapsulate variables and methods within a class only
+2. Whatever variable you are creating, this should be having access modifier as private
+     We have to access those private variable through methods 
+
+-----------------------------------------
+
+C4H10 
+
+
+--------------------------------------------------------------------
+
+Mathematics 
+
+Mathematics m1= new Mathematics();
+Mathematics m2= new Mathematics();
+Mathematics m3= new Mathematics();
+
+
+Abacus 
+
+Abacus a1= new Abacus();
+
+
+Car 
+
+Car audi = new Car();
+Car merc = new Car();
+Car alphaRomeo = new Car();
+Car Crysler = new Car();
+
+
+-----------------------------------------------------------------------------------------------
+ Encapsulation: 
+1. Variable or method: ensure that we are creating them within the class 
+2. Make the variable private and access these private variables using setter and getter methods
+
+Polymorphism:
+   -method overloading
+       In a class we can have two or more methods with the same, provided that, their signatures are different.
+          how can we make the signature different
+            i) by making the data type of parameters different
+           ii) by changing the order of parameters data type
+          iii) by changing the count/number of parameters
+
+
+
+
+-----------------------------------------------------------------------------
+
+OOPs
+
+1. Encapsulation
+      -data hiding 
+
+2. Polymorphism [methods with same name]
+       -method overloading 
+       -method overriding
+
+3. Inheritance 
+     -abstraction
+     -interface
+
+
+Selenium: Java + Element Locators(HTML)
