@@ -1,0 +1,76 @@
+Selenium = Programming Language(Java) + Element Locators(HTML)
+
+Anything that we see on a web page, we call it web element
+Element Locator: Its a way(technique) to locate the address of any web element on a web page
+
+Xpath: Using Xpath we can get the address of any web element
+
+HTML: Hyper Text Mark-up Language
+
+<tagName attribute1 = "value" attribute2 ="value2"..........attributeN="valueN"/>
+<tagName attribute1 = "value" attribute2 ="value2"..........attributeN="valueN"></tagName>
+<tagName attribute1 = "value" attribute2 ="value2"..........attributeN="valueN">innerText</tagName>
+
+
+<input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+
+tagName = input
+how many attributes are there= 6
+id = input-email
+name = email
+placeholder = E-Mail
+"" = value
+form-control = class
+
+value = nameOfAttribute ?
+innerText
+
+<input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control">
+
+tagName = input
+Count of Attributes = 6
+name = password
+type = password
+placeholder = Password
+input-password = id
+
+<a href="https://janbaskdemo.com/index.php?route=account/forgotten">Forgotten Password</a>
+
+tagName = a
+countOfAttributes = 1
+href =https://janbaskdemo.com/index.php?route=account/forgotten
+Forgotten Password
+
+
+<a href="https://janbaskdemo.com/index.php?route=account/register" class="btn btn-primary">Continue</a>
+tagName = a
+countOfAttributes =2
+class = btn btn-primary
+innnerText = Yes--> Continue
+
+<textarea name="enquiry" rows="10" id="input-enquiry" class="form-control"></textarea>
+
+tagName = textarea
+countOfAttributes = 4
+input-enquiry = id 
+10 = rows
+innerText
+
+Xpath : 
+
+--> Absolute Xpath ---> 
+--> Relative Xpath --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
